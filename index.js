@@ -10,10 +10,15 @@
 
 //Remember that computer languages will not add the space character for you so how would you do that manually?
 
+var firstName;
+firstname= 'Samaria'
 
+var lastName;
+lastName= 'Smothers'
 
+var fullName= firstName + ' '+ lastName;
 
-
+console.log(fullName)
 
 
 
@@ -23,14 +28,11 @@
 //Assign luckyNumber to a number of your choice.
 
 //Declare another variable named luckyNumberTimes2 and assign it the value of luckyNumber multiplied by 2.
+var luckyNumber;
+luckNumber= 7
 
-
-
-
-
-
-
-
+var luckyNumberTimes2;
+luckyNumberTimes2= luckyNumber * 2
 
 
 
@@ -40,7 +42,10 @@
 
 //Then, declare another named isEqualTo and assign it the value of strictly comparing luckyNumber and luckyNumberTimes2.
 
+var myBool;
+myBool= true 
 
+var isEqualTo = luckNumber === luckyNumberTimes2
 
 
 
@@ -67,8 +72,13 @@ factorial(8); // => 40320 (8 * 7 * 6 * 5 * 4 * 3 * 2 * 1)
 
 function factorial(number){
 //CODE BELOW HERE
+var answer= 1 ;
 
 
+for(var i = number; i >= i; i--){
+  console.log(i)
+}
+answer = asnwer + i
 
 //CODE ABOVE HERE
 }
